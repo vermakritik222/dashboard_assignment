@@ -1,4 +1,23 @@
 .App {
+background-color: whitesmoke;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.absoluteNav{
+  position: absolute;
+  top: 0;
+  left: -420px;
+  z-index: 9999;
+  
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +54,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
